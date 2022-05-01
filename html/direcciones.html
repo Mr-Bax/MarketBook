@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Direcciones</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="imagenes/logotipo.ico">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="/practicas/Practica2/CSS/style_gestion.css">
+        <link rel="stylesheet" type="text/css" href="/practicas/Practica2/CSS/header.css">
+        <link rel="stylesheet" type="text/css" href="/practicas/Practica2/CSS/menu.css">
+        <link rel="stylesheet" type="text/css" href="/practicas/Practica2/CSS/footer.css"> 
+    </head>
+    <body>
+        <header>
+            <div class="titulo">
+                <img src="/practicas/Practica2/imagenes/logo.png" alt="Logo de la compañia" class="logo">
+                <h2 class="name">MarketBook</h2>
+            </div>
+            <div>
+                <nav class="options">
+                    <a href="/practicas/Practica2/mi_cuenta.html">Mi cuenta<i class="fa-solid fa-user"></i></a>
+                    <a href="">Mis compras<i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="../Practica2.html">Inicio</a>
+                </nav>
+            </div>
+        </header>
+        
+        <section class="flex">
+            <ul class="cont-ul">
+                <li class="principal">CATEGORIAS
+                    <ul class="ul-second">
+                        <li><a href="Paginas/categorias/amor.html">Amor y Romance</a></li>
+                        <li><a href="Paginas/categorias/terror.html">Terror y Suspenso</a></li>
+                        <li><a href="Paginas/categorias/novelas.html">Novelas Historicas</a></li>
+                        <li><a href="Paginas/categorias/kids.html">Libros infántiles</a></li>
+                    </ul>
+                </li>
+                <li class="principal">E-BOOKS
+                    <ul class="ul-second">
+                        <li><a href="Paginas/e-books/ingles.html">Libros en ingles</a></li>
+                        <li><a href="Paginas/e-books/clasicos.html">Clásicos</a></li>
+                    </ul>
+                </li>
+                <li class="principal">ACADEMICOS
+                    <ul class="ul-second">
+                        <li><a href="Paginas/Academicos/humanidades.html">Humanidades</a></li>
+                        <li><a href="Paginas/Academicos/tecnologia.html">Tecnología</a></li>
+                    </ul>
+                </li>
+    
+                <li class="principal">OPCIONES
+                    <ul class="ul-second">
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="container-busqueda">
+            <div class="buscar">
+                <input type="text" placeholder="Titulo, Autor o clave" required>
+                <div class="btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex-container">
+                <div id="mod1">
+                    <h1>Gestión de dirección</h1>
+                </div>
+                <div id="mod2" class="container-input">
+                    <div id="calle">
+                        <label for="calle">Calle:</label><br>
+                        <input type="text" name="calle" value="Lázaro Cárdenas">
+                    </div>
+                    <div id="manzana">
+                        <label for="Mz">Mz</label><br>
+                        <input type="text" name="Mz" value="130">
+                    </div>
+                    <div id="lote">
+                        <label for="Lt">Lt</label><br>
+                        <input type="text" name="Lt" value="5">
+                    </div>
+                    <button>Modificar</button>  
+                </div>
+                <div id="mod3" class="container-input">
+                    <div class="label-input">
+                        <label for="colonia">Colonia:</label><br>
+                        <input type="colonia" name="colonia" value="Miguel Allende">
+                    </div>
+                    <button>Modificar</button>  
+                </div>
+                <div id="mod4" class="container-input">
+                    <div class="label-input">
+                        <label for="cp">Código postal:</label><br>
+                        <input type="cp" name="cp" value="07453">
+                    </div>
+                    <button>Modificar</button>
+                </div>
+                <button type="submit">Guardar cambios</button>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-main">
+                    <div class="footer-column">
+                        <h3>Suscribete</h3>
+                        <input type="email" placeholder="Escriba el correo">
+                        <input type="submit" value=" Suscribirse"><br>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Siguenos</h3>
+                        <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://es-la.facebook.com/"><label>Siguenos en Facebook</label></a><br>
+                        <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://twitter.com/?lang=es"><label>Siguenos en Twitter</label></a><br>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/"><label>Siguenos en Instagram</label><br></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></a></i>
+                        <a href="https://www.youtube.com/"><label>Siguenos en YouTube</label></a><br>
+                    </div>
+    
+                    <div class="footer-column">
+                        <h3>Contacto</h3>
+                        <i class="fa-solid fa-house"></i>
+                        <label>Av. Té 950, Granjas México, Iztacalco, 08400 Ciudad de México, CDMX</label><br>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <label>55 1274 5677</label><br>
+                        <i class="fa-solid fa-envelope"></i>
+                        <label>MarketBook@empresasmexico.com</label><br>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <div class="main-copy">
+                    <div class="footer-c">
+                        &copy; 2022, Todos los derechos reservados <a href=""><b>|MarketBook</b></a>
+                    </div>
+                    <div class="footer-politicas">
+                        <a href="">Terminos y condiciones<a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
