@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="../../../imagenes/logotipo.ico">
+    <link rel="stylesheet" href="../../../CSS/styles.css">
+    <link rel="stylesheet" href="../../../CSS/header.css">
+    <link rel="stylesheet" href="../../../CSS/footer.css">
+    <link rel="stylesheet" href="../../../CSS/libro.css">
+    <link rel="stylesheet" href="../../../CSS/zoom.css">
+    <link rel="stylesheet" href="../../../CSS/menu.css">
+    <script src="../../js/cantidad.js"></script>
+    <title>Ficha</title>
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+
+
+    <header class="flex-container">
+        <div class="titulo">
+            <img src="../../../imagenes/logo.png" alt="Logo de la compañia" class="logo">
+            <h2 class="name">MarketBook</h2>
+        </div>
+        <div>
+            <nav class="options">
+                <a href="../../../cuenta.html">Mi cuenta<i class="fa-solid fa-user"></i></a>
+                <a href="../../../pedidos.html">Mis compras<i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="../../../../Practica2.html">Inicio</a>
+            </nav>
+        </div>
+        
+    </header>
+
+    <section class="flex">
+        <ul class="cont-ul">
+            <li class="principal">CATEGORIAS
+                <ul class="ul-second">
+                    <li><a href="../../categorias/amor.html">Amor y Romance</a></li>
+                    <li><a href="../../categorias/terror.html">Terror y Suspenso</a></li>
+                    <li><a href="../../categorias/novelas.html">Novelas Historicas</a></li>
+                    <li><a href="../../categorias/kids.html">Libros infántiles</a></li>
+                </ul>
+            </li>
+            <li class="principal">E-BOOKS
+                <ul class="ul-second">
+                    <li><a href="../ingles.html">Libros en ingles</a></li>
+                    <li><a href="../clasicos.html">Clásicos</a></li>
+                </ul>
+            </li>
+            <li class="principal">ACADEMICOS
+                <ul class="ul-second">
+                    <li><a href="../../Academicos/humanidades.html">Humanidades</a></li>
+                    <li><a href="../../Academicos/tecnologia.html">Tecnología</a></li>
+                </ul>
+            </li>
+
+            <li class="principal">OPCIONES
+                <ul class="ul-second">
+                    <li><a href="../../../contacto.html">Contacto</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="container-busqueda">
+        <div class="buscar">
+             <input type="text" placeholder="Titulo, Autor o clave" required>
+            <div class="btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <section class="container-i">
+        <div class="img-libro">
+            <img src="../../../imagenes/e-books/ingles/origin.jpg" alt="portada-eso" class="gallery__img">
+        </div>
+    </section>
+
+    <section class="container-centro">
+        <div class="conteinter-ficha">
+            <div class="ficha">
+                <p class="libro-titulo">ORIGIN</p>
+                <div class="container-datos">
+                    <div class="autor"><p>Autor: Dan Brown</p></div>
+                    <div class="editorial"><p>Editorial: Lorem ipsum dolor si</p></div>
+                </div>
+                <div class="codigo"><p><b class="neg">ISBN</b> 64658</p></div>
+                <hr class="separador">
+                <p class="sinop">Sinopsis</p>
+                <div class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque neque iure explicabo magni, ipsa, nemo cupiditate adipisci nulla magnam ratione eos aperiam suscipit deserunt, blanditiis iste. Labore, incidunt excepturi? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea veritatis quo similique sunt, reprehenderit obcaecati eaque voluptate, nisi incidunt praesentium itaque corrupti eveniet quae ipsum cumque quibusdam a fuga at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos inventore repellat nemo atque corporis libero ex ducimus ab officiis deleniti quo, dolorem vero quia consectetur nulla maxime impedit assumenda! Tempora.</div>
+    
+            </div>
+    
+            <p class="infoadd">Información adicional</p>
+    
+            <div class="informacion-adicional">
+                <ul>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                        <div class="inf">
+                            <span class="attr-label"> Edición</span>
+                            <span class="attr-data">1a Edición</span>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <div class="inf">
+                            <span class="attr-label">Formato</span>
+                            <span class="attr-data">Rustico</span>
+                        </div>
+                        
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-book-atlas"></i>
+                        </div>
+                        <div class="inf">
+                            <span class="attr-label">Idioma</span>
+                            <span class="attr-data">Español</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                        </div>
+                        <div class="info">
+                            <span class="attr-label">Número de páginas</span>
+                            <span class="attr-data">180</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <div class="info">
+                            <span class="attr-label">Año</span>
+                            <span class="attr-data">2022</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    
+    <section class="container-d">
+       <div class="compra">
+            <div class="precio-top">
+                <div class="precio-letras"><p>Precio MarketBook</p></div>
+                <div class="precio-numero"><p>$300</p></div>
+
+            </div>
+
+            
+            <hr class="separador2">
+            <div class="btnn">
+                <a href="#" class="btn-compra">Comprar</a>
+                <!-- <button class="btn-compra">Compra</button> -->
+            </div>
+
+            <div class="envio">
+                <article>
+                    <p><i class="fa-solid fa-truck-pickup"></i><strong>Envio gratis</strong></p>
+                    <p>Envio imediato</p>
+                    <p><strong>recibelo de 2 a 5 días hábiles</strong></p>
+                    <p>*Precio exclusivo solo en marketbook</p>
+                </article>
+            </div>
+            <hr class="separador2">
+
+            <div class="btnn">
+                <a href="https://www.goodreads.com/book/show/32283133-origin?ac=1&from_search=true&qid=Baq3UX5EeI&rank=1" class="btn-resenia">Reseña</a>
+                <!-- <button class="btn-resenia"><i class="fa-regular fa-building"></i>Reseñas</button> -->
+            </div>
+
+            <div class="txt">
+                <article>
+                    <p><strong>Recibelo en la puerta de tu hogar</strong></p>
+                    <p>*Sujeto solo a la republica Mexicana</p>
+                </article>
+            </div>
+       </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-column">
+                    <h3>Suscribete</h3>
+                    <input type="email" placeholder="Escriba el correo">
+                    <input type="submit" value=" Suscribirse"><br>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Siguenos</h3>
+                    <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://es-la.facebook.com/"><label>Siguenos en Facebook</label></a><br>
+                    <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://twitter.com/?lang=es"><label>Siguenos en Twitter</label></a><br>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/"><label>Siguenos en Instagram</label><br></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></a></i>
+                    <a href="https://www.youtube.com/"><label>Siguenos en YouTube</label></a><br>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <i class="fa-solid fa-house"></i>
+                    <label>Av. Té 950, Granjas México, Iztacalco, 08400 Ciudad de México, CDMX</label><br>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <label>55 1274 5677</label><br>
+                    <i class="fa-solid fa-envelope"></i>
+                    <label>MarketBook@empresasmexico.com</label><br>
+                </div>
+            </div>
+        </div>
+      
+        <div class="footer-copy">
+            <div class="main-copy">
+                <div class="footer-c">
+                    &copy; 2022, Todos los derechos reservados <a href=""><b>|MarketBook</b></a>
+                </div>
+                <div class="footer-politicas">
+                    <a href="">Terminos y condiciones<a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../../js/modal.js"></script>
+</body>
+</html>
