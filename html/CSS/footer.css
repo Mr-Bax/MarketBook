@@ -1,0 +1,144 @@
+
+.footer-container{
+    width: 100%;
+    background: #272727;
+    color: white;
+ } 
+ 
+ .footer-main{
+    width: 98%;
+    max-width: 1000px;
+    margin:auto;
+    display: flex;
+    padding: 50px 0;
+ } 
+ 
+ .footer-main .footer-column{
+    width: 400px;
+    text-align: justify;
+ } 
+ 
+ 
+ .footer-main .footer-column h3{
+    font-size: 32px;
+    color: #00C6EE;
+    margin-bottom: 20px;
+ } 
+ 
+ .footer-main .footer-column a{
+    text-decoration: none;
+    color: white;
+ } 
+ 
+ .footer-main .footer-column input[type="email"]{
+    border: none;
+    width: 80%;
+    border: 1px solid#00C6EE;
+    font-size: 14px;
+    padding: 10px;
+    font-family: Raleway;
+ }
+ 
+ .footer-main .footer-column input[type="submit"]{
+    border: none;
+    width: 60%;
+    background: #00C6EE;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0px;
+    margin-top:10px;
+    cursor: pointer;
+ }
+ 
+ .footer-main .footer-column label{
+   margin-left: 5px;
+   font-size: 20px;
+   margin-bottom: 15px;
+   font-family: Raleway;
+   align-items: center;
+   cursor: pointer;
+ }
+ 
+ .fa-brands{
+    margin-left: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+ 
+ .footer-copy{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    height: 40px;
+  }
+ 
+  .footer-c{
+    padding: 10px;
+  }
+ 
+  .footer-c a{
+    text-decoration: none;
+    color: white;
+  }
+ .main-copy{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+ 
+ .footer-politicas a{
+    text-decoration: none;
+    color:white;
+  }
+
+  
+/*Resposive Design - DIspositivos mobiles */
+
+
+@media (max-width:1200px){
+     .footer-container {
+        padding: 0;
+     }
+  
+     .footer-main .footer-column h3 {
+        font-size:28px;
+     }
+  
+     .footer-main .footer-column label {
+        font-size:14px;
+     }
+  
+}
+  
+@media (max-width:990px){
+     .footer-main{
+        flex-direction: column;
+        align-items: center;
+     }
+  
+     .footer-main .footer-column h3{
+        font-size: 30px;
+        color: #00C6EE;
+        margin-bottom: 20px;
+        text-align: center;
+     } 
+  
+     .footer-main .footer-column input[type="submit"]{
+        margin-left: 60px;
+        line-height : 25px;
+     }
+  
+     .footer-main .footer-column:nth-child(2){
+        margin-top:  30px;
+     }
+  
+     .footer-copy{
+        height: 60px;
+      }
+}
+  
+
+   

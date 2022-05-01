@@ -1,0 +1,125 @@
+body {
+    background-color: #87c0cd;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #f3f9fb;
+    margin:auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 75%;
+    margin-top: 110px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+  }
+  
+.flex-container > button {
+    background-color: #113f67;
+    width: 280px;
+    margin: 30px;   
+    border-radius:15px;
+    padding: 18px;
+    border: black;
+  }
+
+.flex-container >button:hover {
+  background: #226597;
+}
+
+.flex-container > h1 {
+    width: 100%;
+    margin-top: 35px;
+    text-align: center;
+    color: #113f67;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.containerimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.containerimg > img{
+    flex-grow: 10px;
+    margin: 10px;
+}
+
+.containerimg >div {
+    flex-grow: 40px;
+    font-size: 18px;
+    color: #f3f9fb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 1200px){
+    .flex-container {
+        display: flex;
+      }
+
+      .flex-container > button {
+        width: 300px;
+        margin: 20px;   
+      }
+}
+
+@media (max-width: 800px){
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .flex-container > button {
+        width: 350px;
+        margin: 20px;   
+      }
+}
+
+@media (max-width: 600px){
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+          }
+
+    .flex-container > button {
+        width: 250px;
+        margin: 15px;   
+      }
+
+      .containerimg > img{
+        width: 50px;
+        height: 50px;
+      }
+}
+
+@media (max-width: 450px){
+  .flex-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .flex-container > button {
+      width: 220px;
+      margin: 12px;  
+      padding: 10px; 
+    }
+
+    .flex-container > h1 {
+      width: 80%;
+      font-size: 33px;
+  }
+  
+  .containerimg{
+      padding: 10px;
+      font-size: 10px;
+  }
+  
+  .containerimg > img{
+    width: 40px;
+    height: 40px;
+  }
+}

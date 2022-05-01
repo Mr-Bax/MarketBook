@@ -1,0 +1,175 @@
+.flex{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    padding: 20px 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #ACDCEE;
+ }
+ 
+ .cont-ul{
+    right: 0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    position: absolute;
+    
+ }
+
+ .flex li{
+     list-style:none;
+     cursor:pointer;
+     padding:20px;
+     transition: all 0.3s ease 0s;
+     color: black;
+     margin-left: 40px;
+ }
+
+ li:hover{
+    background-color: #f0fbff;
+    margin-left: 40px;
+ }
+
+
+.ul-second{
+    position: absolute;
+    display: none;
+    transform: translateY(20px);
+ }
+
+ .ul-second >li{
+    border-bottom: solid 1px white;
+    text-align: center;
+    background-color: #f0fbff;
+    padding: 20px;
+    width:104px;
+    transform: translateX(-20px);
+    margin-left:  0px;
+ }
+ .ul-second a{
+    font-weight: 600;
+   padding-right:10px;
+   margin-right: 10px;
+   text-decoration: none;
+   color: #475053;
+   margin-right: 100px;
+ }
+    
+.ul-second > li:hover{
+    background-color: #f0fbff;
+ }
+
+ .principal:hover > .ul-second{
+    display:block;
+    
+ }
+
+ @media (max-width:1200px){
+    .flex
+    {
+        max-width: 100%;
+     }
+  
+  }
+  
+  @media (max-width:990px){
+      .flex{
+        position: absolute;
+        width: 100%;
+        font-size: 15px;
+  
+     }
+  
+     .flex li{
+     padding:10px;
+     margin-left: 40px;
+     }
+     .ul-second{
+        transform: translateY(0px);
+     }
+     .ul-second >li{
+        transform: translateX(-50px);
+     }
+      
+   }
+  
+  @media (max-width:929px){
+    .flex
+    {
+        max-width: 100%;
+     }
+   
+     .flex{
+           position: absolute;
+           width: 100%;
+           font-size: 14px;
+     
+        }
+     
+        .flex li{
+        padding:5px;
+        margin-left: 30px;
+        }
+        .ul-second{
+           transform: translateY(0px);
+        }
+        .ul-second >li{
+           transform: translateX(-40px);
+        }
+       
+   }
+  
+  
+  
+  @media (max-width:700px){
+      
+        .flex{
+           position: absolute;
+           width: 100%;
+           font-size: 13px;
+     
+        }
+     
+        .flex li{
+        padding:3px;
+        margin-left: 40px;
+        }
+        .ul-second{
+           transform: translateY(0px);
+        }
+        .ul-second >li{
+           transform: translateX(-50px);
+        }
+  
+   }
+  
+   @media (max-width:554px){
+    
+      
+        .flex{
+           position: absolute;
+           width: 100%;
+           font-size: 10px;
+     
+        }
+     
+        .flex li{
+        padding:2px;
+        margin-left: 13px;
+        align-items: center;
+        }
+  
+        .ul-second{
+           transform: translateY(0px);
+        }
+  
+   }
+  
+   
+  
+  
+  
+  

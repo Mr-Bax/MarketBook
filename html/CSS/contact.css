@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro&display=swap');
+
+.container-form{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+.info > ul > li{ 
+    text-decoration: none;
+    list-style: none;
+}
+.form{
+    /* background-color: aqua; */
+    width: 80%;
+    display: flex;
+}
+
+.info-contact{
+   
+    padding: 50px 0;
+    margin: 10px;
+
+    width: 50%;
+    /* background-color: blue; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+
+.texto-info{
+    padding-bottom: 5px;
+    text-align: justify;
+}
+.texto-info > p{
+    margin-bottom: 5px;
+}
+
+.info > ul > li{
+    margin: 10px 0;
+}
+
+.separador3{
+    height: 70%;
+    margin: auto;
+    color: #2E94B9;
+    margin-left: 20px;
+    
+}
+
+
+.info-campos{
+    padding: 50px 0px;
+    margin: 10px;
+    width: 50%;
+    /* background-color: brown; */
+}
+
+.formulario{
+    /* background-color: #2E94B9; */
+    width: 100%;
+    height: 90%;
+}
+
+.nombre, .apellido, .tele, .correo{
+    border: 1px solid #ACDCEE ;
+    width: 40%;
+    margin-left: 20px;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.textarea{
+   border: 1px solid #ACDCEE ;     
+   margin: 20px;
+   width: 90%;
+   height: 150px;
+    resize: none;
+}
+
+.formulario__btn{
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.btnn{
+    
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background: #2E94B9;
+    padding:10px;
+    color:#F0FBFF;
+    float: left;
+    margin: 10px 20px;
+    
+}
+
+
+@media (max-width: 992px){
+    
+    .nombre, .apellido, .tele, .correo{
+        width: 30%;
+    }
+
+    .textarea{
+        width: 75%;
+
+     }
+}
+
+@media (max-width: 768px){
+    .nombre, .apellido, .tele, .correo{
+        width: 30%;
+
+    }
+
+    .textarea{
+        width: 85%;
+
+     }
+}
+
+@media (max-width: 576px){
+    .nombre, .apellido, .tele, .correo{
+        width: 90%;
+
+    }
+
+    .textarea{
+        width: 100%;
+
+     }
+}

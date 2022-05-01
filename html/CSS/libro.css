@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Source+Sans+Pro&display=swap');
+
+
+.container-d{
+    width: 25%;
+    height: 750px;
+    background-color: #F3F9FB;
+    /*background-color:blue;*/
+    float: left;
+    padding-top: 50px;
+}
+
+.container-i{ 
+    width: 25%;
+    height: 800px;
+    background-color:#F3F9FB;
+    float: left;
+
+}
+
+
+.container-centro{
+    width: 50%;
+    height: 800px;
+    background-color: #F3F9FB;
+    float: left;
+}
+
+
+
+.img-libro > img{
+    width: 200px;
+    height: 319px;
+    
+}
+
+
+.img-libro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.conteinter-ficha{
+   margin: 10% 5%; 
+    
+}
+
+.ficha{
+    margin-top: 12%;
+}
+
+.libro-titulo, .sinop, .infoadd{
+    font-size: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-datos{
+    width: auto;
+    display: block;
+    float: left;
+}
+
+.autor{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+.editorial{
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
+.codigo{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: end;
+
+}
+.neg{
+    font-size: 1.1em;
+}
+
+.separador{
+    background-color: #2E94B9;
+    height: 1px;
+    margin: 10px 0;
+    width: 100%;
+}
+.resumen{
+    text-align: justify;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+.informacion-adicional{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.informacion-adicional > ul{
+    list-style: none;
+}
+
+.informacion-adicional > ul > li{
+    /*background-color: #2E94B9;*/
+    margin: 5px;
+    width: 130px;
+    display: flex;
+   float: left;
+   justify-items: center;
+   align-items: center;
+}
+
+.attr-label{
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+.attr-data{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon{
+    padding: 10px;
+    color: #000;
+    font-size: 1.1em;
+}
+
+
+.compra{
+    border: 1px solid #475053;
+    border-radius: 5px;
+    margin: 1px;
+    color: #475053;
+}
+
+.precio-top{
+    margin: 25px 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    
+}
+
+.precio-letras{
+    /* background-color: blueviolet; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 10px 0;
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+
+.precio-numero{
+    width: 50%;
+    /* background-color: blue; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.9em;
+    float: right;
+    text-align: right;
+}
+
+.container-cantidad{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    /* background-color: #226597; */
+}
+
+.aumentar , .disminuir{
+    padding: 15px;
+    text-align: center;
+    background-color: #F0FBFF;
+    font-size: 1.1em;
+    border: 1px solid  #475053;
+}
+
+.aumentar:hover , .disminuir:hover{
+    border: 0px;
+    background-color: #ACDCEE;
+    transition: all .5s;
+    cursor: pointer;
+    border: 1px solid  #475053;
+
+}
+
+.cantidad{
+    text-align: center;
+}
+
+.separador2{
+    background-color: #2E94B9;
+    height: 1px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+.btnn{
+    /* background-color: #2E94B9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+    
+
+}
+.btn-compra, .btn-resenia{
+    width: 100%;
+    background-color:#2E94B9 ;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #2E94B9;
+    text-decoration: none;
+    color: #475053;
+    text-align: center;
+    
+}
+.btn-compra:hover,.btn-resenia:hover{
+    color: #F0FBFF;
+    background-color: #226597;
+    border: 1px solid #226597;
+    transition: all .5s;
+    cursor: pointer;
+
+}
+
+
+.envio, .txt{
+    margin: 15px;
+    font-size: 16px;
+}
+
+.envio > article > p{
+    padding-top: 5px;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .container-d{
+        height: 850px;
+    }
+    .container-centro, .container-i{ 
+        height: 900px;
+    }
+    .img-libro > img{
+        width: 180px;
+        height: auto;
+        padding-top: 15px;
+        
+    }
+    .conteinter-ficha{
+        margin: 15% 5%; 
+     }
+
+    .libro-titulo, .sinop, .infoadd{
+        font-size: 28px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .ficha{
+        margin-top: 12%;
+        display: block;
+    }
+    .resumen{
+        font-size: 20px;
+    }
+    .neg{
+        font-size: 1.1em;
+    }
+    .informacion-adicional > ul > li{
+        /* background-color: #2E94B9; */
+        margin: 2px;
+        width: 110px;
+    }
+
+
+    .container-cantidad{
+        width: 100%;
+        padding: 2.5px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+        /* background-color: #226597; */
+    }
+
+    .aumentar , .disminuir{
+        padding: 14px;
+        text-align: center;
+        background-color: #F0FBFF;
+        font-size: 1em;
+        border: 1px solid  #475053;
+        
+    }
+    
+    .cantidad{
+        text-align: center;
+        width: 40%;
+    }
+    
+    .cantidad{
+        text-align: center;
+        width: 40%;
+    }
+
+  
+    
+    .separador{
+        width: 300px;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 768px) {
+    .container-d{
+        height: 850px;
+    }
+    .container-centro, .container-i{ 
+        height: 900px;
+    }
+    .img-libro > img{
+        width: 130px;
+        height: auto;
+        padding-top: 15px;
+        
+    }
+    
+    .conteinter-ficha{
+        margin: 15% 5%; 
+         
+     }
+    
+     .libro-titulo, .sinop, .infoadd{
+        font-size: 22px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .ficha{
+        margin-top: 12%;
+        display: block;
+    }
+    .resumen{
+        font-size: 17px;
+   }
+   
+   .autor{
+       font-family: 'Roboto', sans-serif;
+       margin: 6px;
+   }
+   .editorial{
+        font-family: 'Roboto', sans-serif;
+        margin: 6px;
+    }
+    .codigo{
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        float: left;
+        padding: 0px 20px 0px 0px;
+    }
+        
+    .neg{
+        font-size: 1.1em;
+    }
+    .informacion-adicional > ul > li{
+        /* background-color: #2E94B9; */
+        margin: 2px;
+        width: 120px;
+       
+    }
+
+    
+    .precio-top{
+        margin: 24px 15px;
+        display: block;
+
+    }
+    .precio-letras{
+        width: 100%;
+    }
+    
+    .precio-numero{
+        width: 50%;
+        display: flex;
+        float: left;
+    }
+
+
+  
+
+    .aumentar , .disminuir{
+        padding: 10px;
+        text-align: center;
+        background-color: #F0FBFF;
+        font-size: 1em;
+        border: 1px solid  #475053;
+    }
+    
+    .cantidad{
+        text-align: center;
+        width: 40%;
+    }
+    
+    .cantidad{
+        text-align: center;
+        width: 40%;
+    }
+
+   
+    
+    .separador{
+        width: 110px;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .container-d{
+        height: 850px;
+    }
+    .img-libro > img{
+        width: 130px;
+        height: auto;
+        padding-top: 15px;
+        
+    }
+
+
+    .conteinter-ficha{
+        margin: 15% 5%; 
+         
+     }
+
+
+     .libro-titulo, .sinop, .infoadd{
+        font-size: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .ficha{
+        margin-top: 12%;
+        display: block;
+    }
+
+    .resumen{
+         font-size: 15px;
+    }
+
+    .autor{
+        font-family: 'Roboto', sans-serif;
+        margin: 4px;
+    }
+    
+    .editorial{
+        font-family: 'Roboto', sans-serif;
+        margin: 4px;
+    }
+    
+    .codigo{
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        float: left;
+        padding: 0px 20px 0px 0px;
+    }
+    
+    .neg{
+        font-size: .9em;
+    }
+    
+    .informacion-adicional > ul > li{
+        /* background-color: #2E94B9; */
+        margin: 2px;
+        width: 115px;
+       
+    }
+
+    .precio-top{
+        margin: 25px 15px;
+        display: block;
+ 
+    }
+
+    .precio-letras{
+        width: 100%;
+    }
+    
+    .precio-numero{
+        width: 50%;
+        display: flex;
+        float: left;
+    }
+    
+    .aumentar , .disminuir{
+        padding: 10px;
+        text-align: center;
+        background-color: #F0FBFF;
+        font-size: 1em;
+        border: 1px solid  #475053;
+    }
+
+    .cantidad{
+        text-align: center;
+        width: 40%;
+    }
+
+    .envio, .btnn, .txt{
+        font-size: 10px;
+    }
+    
+    .separador{
+        display: none;
+    }
+}
+
